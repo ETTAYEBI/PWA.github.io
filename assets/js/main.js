@@ -42,3 +42,25 @@ function takePicture() {
       console.error('L\'API MediaDevices n\'est pas disponible sur ce navigateur.');
   }
 }
+
+function selectFromGallery() {
+    const galleryInput = document.getElementById('galleryInput');
+    const previewImage = document.getElementById('previewImage');
+
+    // Ajoutez un écouteur d'événements pour le changement de la sélection de fichiers
+    galleryInput.addEventListener('change', function () {
+        const selectedFile = galleryInput.files[0];
+
+        if (selectedFile) {
+            // Créez un objet URL pour prévisualiser l'image sélectionnée
+            const imageUrl = URL.createObjectURL(selectedFile);
+            
+            // Affichez l'élément image avec l'image sélectionnée
+            previewImage.src = imageUrl;
+            previewImage.style.display = 'block';
+        }
+    });
+
+    // Déclenchez le clic sur l'élément input pour ouvrir la boîte de dialogue de sélection de fichiers
+    galleryInput.click();
+}
