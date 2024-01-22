@@ -1,11 +1,15 @@
 {
-  "name": "Phone store",
-  "short_name": "PhoneStore",
-  "description": "A Progressive Web App example",
+  "lang": "fr",
+  "name": "Onda Facility Maintenance",
+  "short_name": "FM",
+  "description": "Une application développée pour assurer la gestion et la simplification de la maintenance des installations chez Onda. Cette application est habituellement utilisée par les équipes de maintenance, les gestionnaires d'installations et d'autres acteurs impliqués dans la gestion et le suivi des activités de maintenance.",
+  "dir": "ltr",
   "start_url": "index.html",
+  "id": "V1.0.1",
   "display": "standalone",
   "background_color": "#fdfdfd",
   "theme_color": "#db4938",
+  "scope": "/",
   "orientation": "portrait-primary",
   "shortcuts": [
     {
