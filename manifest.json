@@ -1,7 +1,7 @@
 {
   "lang": "fr",
   "name": "Onda Facility Maintenance",
-  "short_name": "FM",
+  "short_name": "Onda FM",
   "description": "Une application développée pour assurer la gestion et la simplification de la maintenance des installations chez Onda. Cette application est habituellement utilisée par les équipes de maintenance, les gestionnaires d'installations et d'autres acteurs impliqués dans la gestion et le suivi des activités de maintenance.",
   "dir": "ltr",
   "start_url": "index.html",
